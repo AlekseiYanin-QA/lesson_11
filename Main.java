@@ -1,8 +1,7 @@
 public class Main {
 
     public static void main(String[] args) {
-        String sampleText = "Домашнее задание! 123";
-
+        String sampleText = "Домашнее задание! Её нужно сделать сегодня";
 
         String testStrings = "Привет 123, мир 456!";
 
@@ -19,7 +18,7 @@ public class Main {
         };
         System.out.println( "-------------------------------------------------------");
 
-        LetterCounter.printResult(sampleText);
+        LetterCountInWords.countEsInWords(sampleText);
 
         System.out.println( "-------------------------------------------------------");
 
